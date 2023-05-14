@@ -108,6 +108,10 @@ Defined as separate sounds for compatibility with possible submods:
 weapons/ssg/dfire	SSGSHOT1
 weapons/ssg/dfire2	SSGSHOT1
 
+//Beefier sounds
+weapons/ssg/fire-heavy-double	"sounds/weapons/SSGSHOT-HEAVY-DOUBLE.ogg"
+weapons/ssg/fire-heavy	"sounds/weapons/SSGSHOT-HEAVY.ogg"
+
 // Chaingun
 weapons/chaingun/draw	CHGNDRAW
 weapons/chaingun/fire	CHGNSHOT

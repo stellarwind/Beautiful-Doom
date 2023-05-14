@@ -247,12 +247,12 @@ Class BD_SuperShotgun : BDoomWeapon {
 		#### B 1 {
 			A_Gunflash("Flash");
 			A_WeaponOffset(frandom(-0.5,0.5),frandom(15,18),WOF_ADD);
-			A_StartSound("weapons/ssg/dfire",slot:CHAN_5);
+			A_StartSound("weapons/ssg/fire-heavy-double",slot:CHAN_5);
 			BD_FireBullets(11.2, 7.1, 20, 5, pufftype: "BD_EnSSGPuff");
 			A_TakeInventory("Shell",1,TIF_NOTAKEINFINITE);
 		}
 		
-		#### # 0 A_StartSound("weapons/ssg/dfire2", 6);
+		//#### # 0 A_StartSound("weapons/ssg/dfire2", 6);
 		#### CCCCCC 1 A_WeaponOffset(0,-2.5,WOF_ADD);
 		TNT1 A 0 A_WeaponOffset(0,32,WOF_INTERPOLATE);
 		TNT1 A 0 A_CheckReload();
@@ -270,7 +270,7 @@ Class BD_SuperShotgun : BDoomWeapon {
 		}
 		#### B 1 {
 			A_Gunflash("AltFlash");
-			A_StartSound("weapons/ssg/fire",slot:CHAN_5);
+			A_StartSound("weapons/ssg/fire-heavy",slot:CHAN_5);
 			A_WeaponOffset(0,12,WOF_ADD);
 			If(invoker.ShotFired) {
 				let psp = player.FindPSprite(PSP_WEAPON);
