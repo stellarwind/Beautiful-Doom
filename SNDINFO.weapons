@@ -185,7 +185,7 @@ $volume Mweapons/saw/loop 0.7
 $volume Mweapons/saw/highloop 0.7
 
 $random Mweapons/pistol/fire { Mpistol1 Mpistol2 Mpistol3 }
-$volume Mweapons/pistol/fire 0.6
+$volume Mweapons/pistol/fire 1
 $limit Mweapons/pistol/fire 10
 Mpistol1	glock1
 Mpistol2	glock2
