@@ -5,7 +5,7 @@ Personal fork, branched off of [6962593](https://github.com/jekyllgrim/Beautiful
 
 Changelog:
 
-- Slightly enhanced and bassier SGS fire sound
+- Slightly enhanced and bassier SSG fire sound
 - Use modern pistol fire sound
 - Removed double pistol and alt fire 
 
