@@ -16,4 +16,4 @@ Beautiful Doom © 2008–2021 Jekyll Grim Payne aka Agent Ash. All rights reserv
 
 ## General information
 
-For more info how to run check [the original repo](https://github.com/stellarwind/Beautiful-Doom).
+For more info how to run check [the original repo](https://github.com/jekyllgrim/Beautiful-Doom).
