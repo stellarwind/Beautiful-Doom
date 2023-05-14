@@ -189,9 +189,8 @@ Class BD_Pistol : BDoomWeapon {
 	Fire.Enhanced:
 		PIBF A 3 {
 			BD_SetSprite("PIBF","QIBF");
-			A_StartSound("Mweapons/pistol/fire",slot:CHAN_BODY);
 			A_gunflash("Flash");
-			BD_FireBullets(5.6, 0, 1, 5, "weapons/pistol/fire");
+			BD_FireBullets(5.6, 0, 1, 5, "Mweapons/pistol/fire");
 		}
 		TNT1 A 0 BD_SetSprite("PIBN","QIBN");
 		#### ABCD 1;
